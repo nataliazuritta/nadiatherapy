@@ -34,12 +34,15 @@ header .logo {
 header nav {
     padding-right: 15px;
     background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
 }
 
 header nav ul {
     background-color: #f6f6f6;
     list-style: none;
     display: flex;
+    align-items: center;
     column-gap: 15px;
     margin: 0px;
 }
@@ -86,11 +89,17 @@ p{
     color: #060606;
 }
 
-.text-button{
+.button{
     background-color: #e5dbec;
-    color: #060606;
-    text-decoration: underline;
+    color:#060606
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .home-illustration {
