@@ -62,22 +62,45 @@ header nav ul li a:hover{
 
 
 /* Styles for main index */
-section .main-home{
-
+.container-main {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "main-text main-text home-illustration"
+      ". . ."
+      ". . .";
+  }
+  
+.main-text {
+    display: flex;
+    grid-area: main-text;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-section .about-home{
-
+p{
+    color: #060606;
 }
 
-section .testimonial-home{
-
+.text-button{
+    background-color: #e5dbec;
+    color: #060606;
+    text-decoration: underline;
+    font-style: italic;
 }
 
-section main-home img .home-illustration{
+.home-illustration {
+    grid-area: home-illustration;
+}
+  
+
+section main-home img .home-illustration {
     width: 400px;
 }
-
 
 
 /* Styles for welcome */
