@@ -1,0 +1,89 @@
+/* Resetting CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* class selector */
+/* ante emergencias usar !important; so it overrides any info on that specific item to the 'important' new value */
+
+/* how to change the navigation buttons in header */
+
+header {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo {
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header nav {
+    padding-right: 15px;
+    background-color: #f6f6f6;
+}
+
+header nav ul {
+    background-color: #f6f6f6;
+    list-style: none;
+    display: flex;
+    column-gap: 15px;
+    margin: 0px;
+}
+
+header nav ul li {
+    background-color: #f6f6f6;
+}
+
+header nav ul li a {
+    background-color: #f6f6f6;
+    text-decoration: none;
+    font-size: 22px;
+    color: #060606;
+    font-weight: bolder;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Styles for main index */
+section .main-home{
+
+}
+
+section .about-home{
+
+}
+
+section .testimonial-home{
+
+}
+
+section main-home img .home-illustration{
+    width: 400px;
+}
+
+
+
+/* Styles for welcome */
+
+/* Styles for make-appt */
+
+/* Styles for mmsg-me */
+
+/* Styles for footer */
